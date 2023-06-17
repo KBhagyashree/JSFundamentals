@@ -51,7 +51,7 @@ Code to understand JavaScript fundamentals
 * JavaScript Inheritance
 * JavaScript for...of Loop
 * JavaScript Proxies
-* JavaScript Asynchronous
+### JavaScript Asynchronous
 * JavaScript setTimeout()
 * JavaScript CallBack
 * JavaScript Promises
