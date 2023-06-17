@@ -1,12 +1,11 @@
 # JSFundamentals
 Code to understand JavaScript fundamentals 
 ### JavaScript Introduction
-* Getting Started With JavaScript
 * JS Variables and Constants
 * JS console.log()
+* JavaScript Comments
 * JavaScript Data Types
 * JavaScript Operators
-* JavaScript Comments
 * JavaScript Type Conversions
 ### JavaScript Control Flow
 * Comparison and Logical Operators
