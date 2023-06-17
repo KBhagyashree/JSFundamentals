@@ -1,13 +1,13 @@
 # JSFundamentals
 Code to understand JavaScript fundamentals 
-### JavaScript Introduction
+### A. JavaScript Introduction
 * JS Variables and Constants
 * JS console.log()
 * JavaScript Comments
 * JavaScript Data Types
 * JavaScript Operators
 * JavaScript Type Conversions
-### JavaScript Control Flow
+### B. JavaScript Control Flow
 * Comparison and Logical Operators
 * JavaScript if...else Statement
 * JavaScript for Loop
@@ -15,7 +15,7 @@ Code to understand JavaScript fundamentals
 * JavaScript break Statement
 * JavaScript continue Statement
 * JavaScript switch Statement
-### JavaScript Functions
+### C. JavaScript Functions
 * JavaScript Functions and Expressions
 * JavaScript Variable Scope
 * JavaScript Hoisting
