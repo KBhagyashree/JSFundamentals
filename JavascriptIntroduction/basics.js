@@ -61,5 +61,3 @@ catch(Error){
     console.log("We get the following error:")
     console.log(Error);
 }
-
-
