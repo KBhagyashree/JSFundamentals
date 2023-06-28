@@ -5,7 +5,7 @@
 
 /* ~~~~~~~~~~~~ Primitive DataTypes ~~~~~~~~~~~~ */
 // Following are the different primitive data types in JS:
-// 1. NUMBER: an integer or a floating-point numbe
+// 1. NUMBER: an integer or a floating-point number
 // 2. BIGINT: an integer with arbitrary precision
 // 3. BOOLEAN: Any of two values: true or false
 // 4. STRING: represents textual data
@@ -14,11 +14,11 @@
 // 7. NULL: denotes a null value
 
 // NUMBER
-// Number type can only represent numbers less than (2^53 - 1) and more than -(2^53 - 1)
+// Number type represent numbers less than (2^53 - 1) and more than -(2^53 - 1)
 // For example,
 console.log('%cOUTPUT FOR TEST CODE: Data Types -> Number', 'background-color: #90EE90; font-weight: bold;');
 /* >>>>>>>>>>>>> T  E  S  T  C  O  D  E <<<<<<<<<<<<< */
-let num = 0;
+let num;
 num = 34; console.log("Number can be a postive integer value like: " + num);
 num = 34.567; console.log("Number can be a floating point value like: " + num);
 num = 4.598e3; console.log("Number can be an exponential value like: (4.598e3) = " + num);
@@ -28,20 +28,20 @@ num = -4/0; console.log("Number can be a -Infinity value like: (-4/0) = " + num)
 num = "abc"/60; console.log("Number can be a NaN - Not a number value like: (\"abc\"/60) = " + num);
 
 // BIGINT
-// If we want a larger number than greater than (2^53 - 1) and less than -(2^53 - 1)
+// BigInts are larger numbers i.e. greater than (2^53 - 1) and less than -(2^53 - 1)
 // A BigInt number is created by appending n to the end of an integer.
 // These are basically values of higher accuracy.
 // For example,
 console.log('%cOUTPUT FOR TEST CODE: Data Types -> BigInt', 'background-color: #90EE90; font-weight: bold;');
 /* >>>>>>>>>>>>> T  E  S  T  C  O  D  E <<<<<<<<<<<<< */
-let bignum = 0;
+let bignum;
 bignum = 900719925124740998n; console.log("Big Integer value example: " + bignum);
 bignum = -8607192515666670998n; console.log("Big Integer value example: " + bignum);
 
 // BOOLEAN
 // Boolean represents one of two values: true or false
 // Numeric equivalent of true - 1 and false - 0
-// These value typically used for performing logical comparisons.
+// These values are typically used for performing logical comparisons.
 // For example,
 console.log('%cOUTPUT FOR TEST CODE: Data Types -> Boolean', 'background-color: #90EE90; font-weight: bold;');
 /* >>>>>>>>>>>>> T  E  S  T  C  O  D  E <<<<<<<<<<<<< */
@@ -52,7 +52,7 @@ flag = false; console.log("Is the switch OFF?: " + flag);
 // A String is sequence of multiple characters. 
 // A variable of type of string can also store a single character. 
 // JS offers many functions to perform various string operations. 
-// Typically a string value can be surrounded within a pair of double/single quotes or a backticks.
+// Typically a string value can be surrounded within a pair of double/single quotes or backticks.
 // A console.log statement is of type string.
 // Let us look at a few examples, 
 console.log('%cOUTPUT FOR TEST CODE: Data Types -> String', 'background-color: #90EE90; font-weight: bold;');
@@ -63,6 +63,7 @@ str = 'an apple a day keeps a doctor away';
 console.log("String can hold a string of multiple characters as well: "+ str);
 
 // Common String Operations
+// Length of String - 
 // length - property that holds the length of the string
 str = 'UNESCO - United Nations Educational, Scientific and Cultural Organization';
 console.log("Example String: " + str);
@@ -71,8 +72,10 @@ let strLength = str.length;
 console.log("String Length: " + strLength);
 
 // String Concatenation - 2 strings can be concatenated using the + operator
-// or the conat() function
+// or the concat() function
 let strConcat = str + ". It is headquarted in Paris, France."
+console.log("Concatenated String: " + strConcat);
+strConcat = str.concat(". It is always in news.");
 console.log("Concatenated String: " + strConcat);
 
 // String Parts Extraction - 
@@ -152,6 +155,14 @@ console.log("str[14] = " + str[14]);
 console.log("str[15] = " + str[15]);
 console.log("str[20] = " + str[20]);
 
+// SYMBOL
+// Symbols are immutable (cannot be changed) and are unique.
+// Symbols with the same description are not the same.
+console.log('%cOUTPUT FOR TEST CODE: Data Types -> Null', 'background-color: #90EE90; font-weight: bold;');
+/* >>>>>>>>>>>>> T  E  S  T  C  O  D  E <<<<<<<<<<<<< */
+let symb = Symbol('hello');
+console.log(symb);
+
 // UNDEFINED
 // The undefined data type represents value that is not assigned. 
 // If a variable is declared but the value is not assigned, 
@@ -171,11 +182,3 @@ console.log('%cOUTPUT FOR TEST CODE: Data Types -> Null', 'background-color: #90
 /* >>>>>>>>>>>>> T  E  S  T  C  O  D  E <<<<<<<<<<<<< */
 data = null;
 console.log("\'data\' variable is  empty: " + data);
-
-// SYMBOL
-// Symbols are immutable (cannot be changed) and are unique.
-// Symbols with the same description are not the same.
-console.log('%cOUTPUT FOR TEST CODE: Data Types -> Null', 'background-color: #90EE90; font-weight: bold;');
-/* >>>>>>>>>>>>> T  E  S  T  C  O  D  E <<<<<<<<<<<<< */
-let symb = Symbol('hello');
-console.log(symb);
