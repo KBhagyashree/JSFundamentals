@@ -54,7 +54,7 @@ Code to understand JavaScript fundamentals
 * JavaScript Promises
 * JavaScript async/await
 * JavaScript setInterval()
-### JS Miscellaneous
+### JavaScript Miscellaneous
 * JavaScript JSON
 * JavaScript this, call(), apply(), bind()
 * Polyfill for bind()
