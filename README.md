@@ -1,9 +1,7 @@
 # JSFundamentals
 Code to understand JavaScript fundamentals 
 ### JavaScript Introduction
-* JS Variables and Constants
-* JS console.log()
-* JavaScript Comments
+* JavaScript Comments, console.log(), Variables and Constants
 * JavaScript Data Types
 * JavaScript Operators
 * JavaScript Type Conversions
@@ -58,12 +56,10 @@ Code to understand JavaScript fundamentals
 * JavaScript setInterval()
 ### JS Miscellaneous
 * JavaScript JSON
-* JavaScript Date and Time
-* JavaScript Closures
-* JavaScript this
+* JavaScript this, call(), apply(), bind()
+* Polyfill for bind()
+* JavaScript Closures, Function Currying, Function Memoization
 * JavaScript 'use strict'
 * JS Iterators and Iterables
 * JavaScript Generators
 * JavaScript Regex
-* JavaScript Browser Debugging
-* Uses of JavaScript
